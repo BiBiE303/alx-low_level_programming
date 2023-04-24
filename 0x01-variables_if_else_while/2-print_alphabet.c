@@ -8,11 +8,10 @@ int main(void)
 {
 	char lc;
 
-v	for (lc = 'a'; lc <= 'z'; lc++);
-
+	for (lc = 'a'; lc <= 'z'; lc++)
 	{
 		putchar(lc);
 	}
-	putcar('\n');
+	putchar('\n');
 	return (0);
 }
