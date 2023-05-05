@@ -3,26 +3,26 @@
 /**
  * _strcat - a function that concatenates two strings
  * @dest: Copy to
- * *src: Copy from
+ * @src: Copy from
  * Return: void
  */
 char *_strcat(char *dest, char *src)
 {
-	int k;
-	int s;
+	int a;
+	int b;
 
-	k = 0;
-	while (dest[k] != '\0')
+	a = 0;
+	while (dest[a] != '\0')
 	{
-		k++;
+		a++;
 	}
-	s = 0;
-	while (src[s] != '\0')
+	b = 0;
+	while (src[b] != '\0')
 	{
-		dest[k] = src[s];
-		k++;
-		s++;
+		dest[a] = src[b];
+		a++;
+		b++;
 	}
-	dest[k] = '\0';
+	dest[a] = '\0';
 	return (dest);
 }
