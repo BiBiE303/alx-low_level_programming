@@ -3,8 +3,8 @@
  * _memset - a function that fills memory with a constant byte
  * @n: Number of bytes
  * @s: Starting address of memory
- * @b: constant byte
- * Return: void
+ * @b: The desired value
+ * Return: changed array with anew value for n bytes
  */
 char *_memset(char *s, char b, unsigned int n)
 {
