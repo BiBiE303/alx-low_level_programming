@@ -1,15 +1,14 @@
 #include <stdio.h>
-
 int main(void)
 {
-	int n;
+	int l;
 	int a[5];
 	int *p;
 
 	a[2] = 1024;
-	p = &n;
+	p = &l;
   /*
-   * write your line of code here...
+   * magic code
    * Remember:
    * - you are not allowed to use a
    * - you are not allowed to modify p
